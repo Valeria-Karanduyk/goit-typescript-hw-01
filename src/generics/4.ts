@@ -7,7 +7,6 @@ type User = {
 
 function createOrUpdateUser(initialValues: Partial<User>) {
   console.log(initialValues);
-  // Оновлення користувача
 }
 
 createOrUpdateUser({
